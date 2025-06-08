@@ -11,7 +11,7 @@ export const projectsData = [
       'A fully interactive task management application built with React. Features include drag-and-drop functionality to organize tasks, dynamic creation and deletion of tasks, and a celebratory confetti effect upon completion.',
     image: kanbanImage,
     tags: ['React', 'Styled-Components', '@hello-pangea/dnd', 'JavaScript'],
-    liveUrl: '#', 
+    liveUrl: 'https://kanban-app-chiar.vercel.app', 
     repoUrl: 'https://github.com/chiarabdy/kanban-task-app',
   },
   // {
