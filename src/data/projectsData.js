@@ -36,7 +36,7 @@ export const projectsData = [
       'A clean and responsive weather application built with React and TypeScript. It fetches and displays live weather data from the OpenWeatherMap API for any city in the world.',
     image: weatherAppImage,
     tags: ['React', 'TypeScript', 'Vite', 'Styled-Components', 'Axios'],
-    liveUrl: 'https://your-weather-app-url.vercel.app', 
+    liveUrl: 'https://react-weather-app-liard-seven.vercel.app/', 
     repoUrl: 'https://github.com/chiarabdy/react-weather-app',
   },
 ];
