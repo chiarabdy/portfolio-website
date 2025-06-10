@@ -1,15 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
 
-const Card = styled.div`
-  transition: transform 0.4s ease, box-shadow 0.4s ease;
-
-  &:hover {
-    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.25);
-    transform: rotateY(-10deg) rotateX(5deg) scale(1.05);
-  }
-`;
-
 const CardImage = styled.img`
   width: 100%;
   display: block;
@@ -24,7 +15,7 @@ const CardOverlay = styled.div`
   background: linear-gradient(to top, rgba(0,0,0,0.9) 0%, rgba(0,0,0,0) 100%);
   color: white;
   padding: 40px 20px 20px 20px;
-  transform: translateY(100%); /* Start with content hidden */
+  transform: translateY(100%);
   transition: transform 0.4s ease-in-out;
 `;
 
@@ -32,13 +23,20 @@ const CardWrapper = styled.div`
   position: relative;
   overflow: hidden;
   border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s ease;
+
+
+  &:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  }
 
   &:hover ${CardOverlay} {
-    transform: translateY(0); /* Slide content up on hover */
+    transform: translateY(0);
   }
 
   &:hover ${CardImage} {
-    transform: scale(1.05); /* Also zoom the image slightly */
+    transform: scale(1.05);
   }
 `;
 
