@@ -37,5 +37,11 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+    "title": "Retro Brick Breaker",
+    "imageSrc": "assets/images/brickbreaker.png",
+    "description": "A classic arcade game built with vanilla JavaScript and HTML5 Canvas to practice core game development concepts.",
+    "skills": ["JavaScript", "HTML5 Canvas", "CSS"],
+    "demo": "https://brick-breaker-game-bay.vercel.app/",
+    "source": "https://github.com/chiarabdy/brick-breaker-game"
 }

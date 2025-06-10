@@ -41,8 +41,9 @@ const SectionTitle = styled.h2`
 
 const ProjectsGrid = styled.div`
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
-  gap: 40px;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 30px;
   max-width: 1200px;
   margin: 0 auto;
+  perspective: 1000px; // Added perspective for 3D effect
 `;
